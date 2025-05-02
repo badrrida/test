@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               <img 
                 src="/sbia-logo.png" 
                 alt="SBIA Logo" 
-                className="h-16 w-auto"
+                className="h-12 w-auto"
               />
             </a>
           </div>

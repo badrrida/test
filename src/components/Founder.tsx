@@ -22,17 +22,30 @@ const Founder: React.FC = () => {
           {/* Left Column - Content */}
           <div className="lg:w-1/2 order-2 lg:order-1">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-6">
-              Meet Soumia Benamar
+              Meet  Dr.Soumia Benamar
             </h2>
             <p className="font-body text-neutral-darkGray mb-6">
-              Soumia Benamar is an internationally recognized business strategist, startup mentor, and innovation expert with a passion for helping entrepreneurs unlock their full potential.
+            Entrepreneur Soumia Ben Amar is a visionary and revolutionary business leader. In her thirties, she has emerged as a prominent opinion leader, entrepreneur, and investor. Soumia firmly believes that businesses evolve from ideas, grow through strategic planning, and thrive based on flawless execution. However, she emphasizes that the true success of a business lies in its people, whom she considers to be among her most valuable assets .             </p>
+            <p className="font-body text-neutral-darkGray mb-8">
+            Soumia Benamar has founded TAMHEED program , it’s vision is bridging the gap between academia and the business world, driving sustainable success for graduates  by delivering innovative, data-driven solutions and fostering a culture of continuous improvement.
             </p>
             <p className="font-body text-neutral-darkGray mb-8">
-              With over 15 years of experience working with startups and established companies across the globe, Soumia brings a unique perspective that combines strategic thinking, practical implementation, and cultural intelligence.
+            With a notable presence in various media outlets, Soumia is a regular keynote speaker at innovation conferences. 
+            </p>
+            <p className="font-body text-neutral-darkGray mb-8">
+            As the founder of Soumia Benamar International Academy for Consultancy, known as the 'HUB OF MOTIVATION,' she has curated a portfolio of programs in collaboration with both governmental and private entities. In a groundbreaking achievement in 2023, Soumia was recognized as the first Arab woman to launch an awareness program in space. This accomplishment underscores her commitment to innovation and leadership on a global scale.
+            </p>
+
+            <p className="font-body text-neutral-darkGray mb-8">
+            Leveraging her extensive business experience, she employs a consultative approach to underscore the significance of brand building, brand psychology, and comprehensive comprehension of business functions. 
+            </p>
+
+            <p className="font-body text-neutral-darkGray mb-8">
+            Through her leadership, KIEF Company has evolved into a prominent player in the consulting industry.
             </p>
 
             {/* Achievements Timeline */}
-            <div className="mt-10 space-y-8">
+            {/* <div className="mt-10 space-y-8">
               <h3 className="font-heading font-bold text-xl text-primary">Achievements</h3>
               <div className="relative pl-8 border-l-2 border-accent space-y-8">
                 {achievements.map((achievement, index) => (
@@ -51,7 +64,7 @@ const Founder: React.FC = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Column - Image and Testimonials */}
@@ -66,7 +79,7 @@ const Founder: React.FC = () => {
             </div>
 
             {/* Testimonials */}
-            <div className="bg-white p-8 rounded-lg shadow-lg relative overflow-hidden">
+            {/* <div className="bg-white p-8 rounded-lg shadow-lg relative overflow-hidden">
               <div className="absolute top-0 left-0 w-full h-1">
                 <div 
                   className="bg-accent h-full"
@@ -112,7 +125,7 @@ const Founder: React.FC = () => {
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

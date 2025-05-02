@@ -278,18 +278,17 @@ const Contact: React.FC = () => {
                   Follow Us
                 </h4>
                 <div className="flex space-x-4">
-                  {socialLinks.map((link) => (
-                    <a
-                      key={link.platform}
-                      href={link.url}
+                <a
+                      // key={link.platform}
+                      href='https://www.instagram.com/dr.soumiabenamar?igsh=MWVqejBlbTd0YzlndA=='
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-white transition-colors"
-                      aria-label={`Follow on ${link.platform}`}
+                      className="w-10 h-10  flex items-center justify-center text-white hover:bg-accent hover:text-white transition-colors"
+                      aria-label=''
                     >
-                      {getIcon(link.icon)}
+                      <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+                      
                     </a>
-                  ))}
                 </div>
               </div>
             </div>

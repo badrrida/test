@@ -60,19 +60,18 @@ const Footer: React.FC = () => {
               Empowering entrepreneurs and business leaders through strategic guidance, innovative solutions, and hands-on mentorship.
             </p>
             <div className="flex space-x-4">
-              {socialLinks.map((link) => (
                 <a
-                  key={link.platform}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-8 h-8 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-accent hover:text-white transition-colors"
-                  aria-label={`Follow on ${link.platform}`}
-                >
-                  {getIcon(link.icon)}
-                </a>
-              ))}
-            </div>
+                      // key={link.platform}
+                      href='https://www.instagram.com/dr.soumiabenamar?igsh=MWVqejBlbTd0YzlndA=='
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10  flex items-center justify-center text-white hover:bg-accent hover:text-white transition-colors"
+                      aria-label=''
+                    >
+                      <img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>
+                      
+                    </a>
+                </div>
           </div>
 
           {/* Quick Links */}
@@ -142,11 +141,6 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="font-body text-white/80 hover:text-accent transition-colors">
                   Startup Guide
-                </a>
-              </li>
-              <li>
-                <a href="#" className="font-body text-white/80 hover:text-accent transition-colors">
-                  Investment Tips
                 </a>
               </li>
               <li>

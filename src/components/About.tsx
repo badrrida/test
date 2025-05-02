@@ -39,25 +39,30 @@ const About: React.FC = () => {
                 style={{ aspectRatio: '3/4' }}
               />
               <div className="absolute bottom-6 right-6 md:bottom-8 md:right-8 bg-accent p-4 rounded-lg shadow-md">
-                <p className="font-heading font-bold text-white">15+ Years Experience</p>
+                <p className="font-heading font-bold text-white">20+ Years Experience</p>
               </div>
             </div>
           </div>
 
           {/* Right Column - Content */}
-          <div className="lg:w-1/2">
+          <div className="lg:w-3/4">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-6">
               About SBIA
             </h2>
             <p className="font-body text-neutral-darkGray mb-6">
-              Soumia Benamar International Academy (SBIA) is a premier consultancy dedicated to empowering entrepreneurs and business leaders through strategic guidance, innovative solutions, and hands-on mentorship.
-            </p>
+            SB International Academy ‘s commitment lies in providing personalized guidance and comprehensive assistance to individuals & organizations to achieve excellence in their respective endeavors.
+            We aspire to be the catalyst for positive change, driving innovation, sustainability, and progress, while always putting our clients at the heart of our mission.</p>
+
+            <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-6">
+            OUR VISION & MISSION
+            </h2>
             <p className="font-body text-neutral-darkGray mb-8">
-              Founded by Soumia Benamar, an internationally recognized business strategist and startup mentor, SBIA bridges the gap between vision and execution, helping clients navigate challenges and capitalize on opportunities in today's dynamic market landscape.
-            </p>
+
+            To be the foremost consultancy company, globally recognized for excellence, innovation, and unwavering commitment to our clients' success. Our vision is to lead the way in shaping a brighter, more sustainable future through strategic insights and unparalleled expertise.
+Our mission is to empower individuals & organizations to thrive in a rapidly evolving business landscape. We achieve this by providing expert guidance, actionable insights, and tailored strategies that drive growth and efficiency.            </p>
 
             {/* Statistics */}
-            <div ref={statsRef} className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+            <div ref={statsRef} className="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-8">
               {statistics.map((stat, index) => (
                 <div 
                   key={stat.title} 
@@ -75,7 +80,7 @@ const About: React.FC = () => {
                   <h4 className="font-heading font-bold text-lg text-primary mb-2">
                     {stat.title}
                   </h4>
-                  <p className="font-body text-sm text-neutral-darkGray">
+                  <p className="font-body text-[13px] text-neutral-darkGray">
                     {stat.description}
                   </p>
                 </div>
