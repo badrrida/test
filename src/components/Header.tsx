@@ -52,7 +52,7 @@ const Header: React.FC = () => {
               }}
             >
               <img 
-                src="/sbia-logo.png" 
+                src={isScrolled ? "/sbia-logo.png" : "/sbia-logo-white.png"} 
                 alt="SBIA Logo" 
                 className="h-12 w-auto"
               />

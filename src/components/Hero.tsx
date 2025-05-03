@@ -14,12 +14,13 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" 
         style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/7709452/pexels-photo-7709452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
+          backgroundImage: 'url(ab.jpg)',
           backgroundPosition: '70% center'
         }}
-      >
-        <div className="absolute inset-0 bg-primary opacity-75"></div>
-      </div>
+      />
+      <div className="absolute inset-0 bg-black/50"></div> 
+
+      
 
       {/* Content */}
       <div className="container mx-auto px-4 md:px-6 z-10 py-20">

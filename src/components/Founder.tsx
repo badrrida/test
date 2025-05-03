@@ -22,7 +22,8 @@ const Founder: React.FC = () => {
           {/* Left Column - Content */}
           <div className="lg:w-1/2 order-2 lg:order-1">
             <h2 className="font-heading font-bold text-3xl md:text-4xl text-primary mb-6">
-              Meet  Dr.Soumia Benamar
+            Meet The  Founder & CEO 
+            Dr.Soumia Benamar
             </h2>
             <p className="font-body text-neutral-darkGray mb-6">
             Entrepreneur Soumia Ben Amar is a visionary and revolutionary business leader. In her thirties, she has emerged as a prominent opinion leader, entrepreneur, and investor. Soumia firmly believes that businesses evolve from ideas, grow through strategic planning, and thrive based on flawless execution. However, she emphasizes that the true success of a business lies in its people, whom she considers to be among her most valuable assets .             </p>

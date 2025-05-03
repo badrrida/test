@@ -7,6 +7,7 @@ import CaseStudies from './components/CaseStudies';
 import Founder from './components/Founder';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Entities from './components/Entities';
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,8 @@ function App() {
         <Services />
         <CaseStudies />
         <Founder />
+        <Entities />
+
         <Contact />
       </main>
       <Footer />

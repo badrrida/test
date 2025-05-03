@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { caseStudies } from '../data/caseStudies';
 
-const CaseStudies: React.FC = () => {
+const Entities: React.FC = () => {
   const scrollContainer = useRef<HTMLDivElement>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -98,27 +98,59 @@ const CaseStudies: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="font-heading font-bold text-3xl md:text-4xl text-black mb-4">
-            We Collaborated With
+          We collaborated with the following Entities
           </h2>
-          <p className="font-body text-black/80">
-            We've helped innovative companies across industries achieve remarkable growth and success.
-          </p>
         </div>
 
         {/* Case Studies Carousel - Mobile */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 items-center">
-          <img className='mx-auto my-auto mix-blend-multiply scale-[0.7]' src="./lv.svg" alt="" />
-          <img className='mx-auto my-auto' src="./burj-al-arab.svg" alt="" />
-          <img className='mx-auto my-auto' src="./es.svg" alt="" />
-          <img className='mx-auto my-auto' src="./fp.svg" alt="" />
-          <img className='mx-auto my-auto' src="./hs.png" alt="" />
-          <img className='mx-auto my-auto' src="./pv.png" alt="" />
-          <img className='mx-auto my-auto' src="./ror.svg" alt="" />
-          <img className='mx-auto my-auto' src="./rr.svg" alt="" />
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 items-center">
+        <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+        HH Sheikha Fatima 
+        <br />
+        Bent Mubarak Academy
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Abu Dhabi Ladies Club
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Ministry of Culture
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Authority of Social
+          Contribution MA’AN
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          UAE Cancer Society
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Danat Emirates Hospital
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Abu Dhabi University
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Start AD_New yourk
+          University
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Abu Dhabi 42
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Falcon Aviation
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          TRYANO
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Dress for Success
+          </h2>
+          <h2 className="font-heading font-bold text-md md:text-xl text-primary mb-4 text-center">
+          Private jet AIRAVAT
+          </h2>
         </div>        
       </div>
     </section>
   );
 };
 
-export default CaseStudies;
+export default Entities;
