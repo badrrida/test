@@ -21,10 +21,10 @@ function App() {
         <Hero />
         <About />
         <Services />
-        <CaseStudies />
-        <Founder />
         <Entities />
-
+        <Founder />
+        
+        <CaseStudies />
         <Contact />
       </main>
       <Footer />
